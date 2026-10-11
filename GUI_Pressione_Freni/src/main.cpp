@@ -33,7 +33,7 @@ int incremento = 1;
 float bar = 0;
 
 // Filtro media mobile per ridurre rumore ADC
-#define FILTER_SIZE 10
+#define FILTER_SIZE 20
 float adcReadings[FILTER_SIZE];
 int readIndex = 0;
 float adcTotal = 0;
